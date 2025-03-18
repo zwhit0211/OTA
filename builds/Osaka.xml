@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!--Remotes-->
+<remote name="moto-common-los"            fetch="https://github.com/LineageOS"           revision="lineage-21" />
+<remote name="moto-common"        fetch="https://github.com/moto-common"          revision="master" />
+
+<!--Devices Trees-->
+<project name="android_device_motorola_osaka"           path="device/motorola/osaka"       remote="moto-common" />
+<project name="android_device_motorola_sm4350-common"     path="device/motorola/sm4350-common" remote="moto-common" />
+
+<!--Vendors Tree-->
+<project name="proprietary_vendor_motorola_osaka"       path="vendor/motorola/osaka"       remote="moto-common" />
+<project name="proprietary_vendor_motorola_sm4350-common" path="vendor/motorola/sm4350-common" remote="moto-common" />
+
+<!--Kernel Tree-->
+<project name="android_kernel_motorola_sm4350"            path="kernel/motorola/sm4350"        remote="moto-common" />
+
+<!--Hardware dependencies-->
+<project name="android_hardware_motorola"                 path="hardware/motorola"             remote="moto-common" />
+
+<remote name="moto-commom-los"            fetch="https://github.com/LineageOS"           revision="lineage-21" />
+<remote name="moto-common"        fetch="https://github.com/moto-common"          revision="master" />
+
+<project name="android_device_motorola_osaka"           path="device/motorola/osaka"       remote="moto-common" />
+</manifest><!--Remotes-->
